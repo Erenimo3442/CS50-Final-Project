@@ -4,6 +4,12 @@ Youtube Video link: https://www.youtube.com/example
 
 HaveToDo is a Chrome extension designed to help you manage your daily tasks efficiently. It provides a simple and intuitive interface to add, edit, delete, and mark tasks as done. Additionally, it includes a timer feature to help you stay focused and manage your time effectively.
 
+## Built With
+
+* [![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?logo=javascript&logoColor=000)](#)
+* [![HTML](https://img.shields.io/badge/HTML-%23E34F26.svg?logo=html5&logoColor=white)](#)
+* [![CSS](https://img.shields.io/badge/CSS-1572B6?logo=css3&logoColor=fff)](#)
+
 ## Features
 
 - **Task Management**: Add, edit, delete, and mark tasks as done.
@@ -107,3 +113,7 @@ If you have any questions or feedback, please contact me at my GitHub account.
 ---
 
 Thank you for using HaveToDo! I hope it helps you stay organized and productive.
+
+[Bootstrap.com]: https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white
+[Bootstrap-url]: https://getbootstrap.com
+
