@@ -33,7 +33,7 @@ To install the HaveToDo Chrome extension, follow these steps:
 
 ![Guide Screenshot 2](images/screenshot2.png)
 
-5. The HaveToDo extension should now be installed and visibvle in your Chrome extensions.
+5. The HaveToDo extension should now be installed and visible in your Chrome extensions.
 
 ## Usage
 
