@@ -1,0 +1,180 @@
+div#container {
+    justify-content: center;
+    align-items: center;
+    width: 250px;
+}
+
+div#tab-content{
+    display: flex;
+    flex-direction: column;
+    margin-top: 5px;
+}
+
+div#task-box {
+    display: flex;
+    flex-direction: column;
+    margin-top: 5px;
+    padding: 5px;
+
+}
+
+div#done-box {
+    display: flex;
+    flex-direction: column;
+    margin-top: 5px;
+    padding: 5px;
+
+}
+
+div#timer-header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px; /* Small gap; adjust or remove if desired */
+}
+
+div#timer-controls {
+    display: flex;
+    justify-content: center;
+    margin-top: 5px;
+}
+
+div.timer-digit {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+div.timer-digit h1,
+div.timer-colon h1 {
+    margin: 0;
+    padding: 0;
+    line-height: 1;
+    color: #333;
+    text-align: center;
+    font-size: 72px;
+}
+
+div.timer-digit .material-icons {
+    padding: 0;
+    margin: 0;
+    line-height: 1;
+    color: #0069fa;
+    text-align: center;
+    font-size: 72px;
+    cursor: pointer;
+    user-select: none;
+}
+
+span[id$="timer-up"] {
+    margin-bottom: 0px;
+}
+
+span[id$="timer-down"] {
+    margin-top: 0px;
+}
+
+.material-icons {
+    color: #0069fa;
+    cursor: pointer;
+}
+
+span[id$="button"] {
+    border: 2px solid #0069fa;
+}
+
+h1#timer-colon {
+    align-content: flex-end;
+    font-size: 72px;
+    margin-block-start: 8px;
+    color: #333;
+}
+
+h1#title {
+    color: #333;
+    text-align: center;
+}
+
+div#tabs{
+    display: flex;
+    justify-content: center;
+    margin-top: 5px;
+}
+
+button#task-tab {
+    background-color: #0069fa;
+    color: #fff;
+    border: 2px, solid, #fff;
+    padding: 5px;
+    cursor: pointer;
+    flex: 1;
+}
+
+button#timer-tab{
+    background-color: #0069fa;
+    color: #fff;
+    border: 2px, solid, #fff;
+    padding: 5px;
+    cursor: pointer;
+    flex: 1;
+}
+
+p.task-text {
+    color: #000000;
+    margin-left: 5px;
+    flex: 1; /* Allow task-text to take the remaining space */
+    padding-right: 10px; /* Add padding to prevent overflow */
+    overflow: hidden; /* Hide overflow text */
+    text-overflow: ellipsis; /* Add ellipsis at the end */
+    align-items: center;
+}
+
+input#edit-input {
+    width: 60%; /* Make input take the full width of task-text */
+    box-sizing: border-box; /* Ensure padding and border are included in the width */
+    flex: 1;
+    margin-block: 9px;
+}
+
+input#task-input {
+    margin: 5px;
+
+}
+
+.task-controls {
+    flex-shrink: 0; /* Prevent shrinking */
+    flex-grow: 0; /* Prevent growing */
+    text-align: right;
+}
+
+.task {
+    display: flex;
+    align-items: center;
+    margin-top: 5px;
+    border-radius: 13px;
+    font-family: 'Verdana', sans-serif;
+}
+
+span.have {
+    color: #4082de;
+    margin: -3px;
+}
+
+span.to {
+    color: #2272e0;
+    margin: -3px;
+}
+
+span.do {
+    color: #0069fa;
+    margin: -3px;
+}
+
+span.button {
+    color: #0069fa;
+    cursor: pointer;
+}
+
+span.button:hover {
+    text-shadow: 0 0 5px #0069fa;
+}

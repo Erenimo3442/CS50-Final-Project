@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <title>HaveToDo Timer</title>
+</head>
+<body>
+    <div id="container">
+        <h1 id="title">
+            <span class="have">Have</span>
+            <span class="to">To</span>
+            <span class="do">Do</span>
+        </h1>
+        <div id="tabs">
+            <button id="task-tab">Tasks</button>
+            <button id="timer-tab">Timer</button>
+        </div>
+        <div id="tab-content">
+            <div id="timer-container">
+                <div id="timer-header">
+                    <div class="timer-digit">
+                        <h1 id="timer-minutes">25</h1>
+                    </div>
+                    <div class="timer-colon">
+                        <h1>:</h1>
+                    </div>
+                    <div class="timer-digit">
+                        <h1 id="timer-seconds">00</h1>
+                    </div>
+                </div>
+                <div id="timer-controls">
+                    <span class="material-icons" id="timer-play-button">
+                        play_arrow
+                    </span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="timer.js"></script>
+</body>
+</html>
