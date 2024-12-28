@@ -13,8 +13,9 @@ HaveToDo is a Chrome extension designed to help you manage your daily tasks effi
 
 ## Installation
 
-[!NOTE]
-This extension is not publicly shared in Chrome Web Store. If you want to download the extension, please follow these steps.
+> [!NOTE]
+> This extension is not publicly shared in Chrome Web Store. If you want to download the
+> extension, please follow these steps.
 
 To install the HaveToDo Chrome extension, follow these steps:
 
